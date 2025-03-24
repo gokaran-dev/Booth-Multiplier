@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module Booth_Multiplier(
-       input signed [7:0]multi,
+       input signed [7:0]multi, //"signed" tells the synthesizer that this will be used for signed operations
        input signed [7:0]multiplier,
        input rst,
        input clk,
@@ -20,7 +20,7 @@ module Booth_Multiplier(
                 begin
                    count<=8;
                    accumulator<=8'b0;
-                   q<=$signed({accumulator,multiplier,1'b0});
+                   q<=$signed({accumulator,multiplier,1'b0}); // accumulator(8bit)|multiplier(8bit)|0
                    product<=0;
                    done<=0;
                 end
@@ -35,8 +35,9 @@ module Booth_Multiplier(
                                q[16:9]=q[16:9]+multi;                                                                                                   
                      endcase 
                      //ARS will be perfomed for above cases too.
-                     
-                     q<=$signed(q)>>>1;  //if q[1] and q[0] is 00 or 11 --->perform ARS                  
+                    //$signed tells the tool that this is a signed operation. 
+                    
+                     q<=$signed(q)>>>1;  //if q[1] and q[0] is 00 or 11 --->perform ARS .                 
                      count<=count-1;                           
                 end
              
