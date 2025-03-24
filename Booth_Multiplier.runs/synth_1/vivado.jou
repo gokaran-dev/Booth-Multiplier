@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 24 20:41:51 2025
+# Process ID: 19716
+# Current directory: D:/Mtech/Vivado/Booth_Multiplier/Booth_Multiplier.runs/synth_1
+# Command line: vivado.exe -log Booth_Multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Booth_Multiplier.tcl
+# Log file: D:/Mtech/Vivado/Booth_Multiplier/Booth_Multiplier.runs/synth_1/Booth_Multiplier.vds
+# Journal file: D:/Mtech/Vivado/Booth_Multiplier/Booth_Multiplier.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Booth_Multiplier.tcl -notrace

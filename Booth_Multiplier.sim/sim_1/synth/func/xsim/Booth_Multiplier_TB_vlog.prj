@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Booth_Multiplier_TB_func_synth.v" \
+"../../../../../Booth_Multiplier.srcs/sim_1/new/Booth_Multiplier_TB.v" \
+
+# Do not sort compile order
+nosort

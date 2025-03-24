@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7334749161447146601  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 46f1648fbd1642ff9d2f213f18aaf2ff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Booth_Multiplier_func_synth xil_defaultlib.Booth_Multiplier xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Booth_Multiplier_func_synth/xsimk.exe\"   \"xsim.dir/Booth_Multiplier_func_synth/obj/xsim_0.win64.obj\" \"xsim.dir/Booth_Multiplier_func_synth/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
