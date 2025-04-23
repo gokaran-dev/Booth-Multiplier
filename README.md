@@ -21,12 +21,6 @@ This project implements a **Radix-2 Booth Multiplier** using Verilog HDL, design
 
 ## How It Works
 
----
-
----
-
-## How It Works
-
 This Booth multiplier was built for **8-bit signed data**, using **behavioral Verilog** constructs with `$signed` operations.
 
 ### Booth Encoding
@@ -58,7 +52,7 @@ A key element of this design is the **17-bit register**, which combines:
 
 ## Output Waveform
 
-![Waveform](results/waveform.png)
+![Waveform](results/output.png)
 
 ---
 
