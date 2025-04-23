@@ -48,6 +48,8 @@ A key element of this design is the **17-bit register**, which combines:
 
 3. This process is repeated **8 times** (for 8-bit input), and then the product is extracted from the concatenated value of `A` and `Q`.
 
+4. A done signal is asserted at the end of the multiplication operation
+
 ---
 
 ## Output Waveform
