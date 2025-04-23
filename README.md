@@ -60,7 +60,7 @@ A key element of this design is the **17-bit register**, which combines:
 
 - The design was simulated using **Vivado**.
 - Testbenches were written to cover both positive and negative inputs.
-- The output products were verified against **truth tables** and expected binary multiplication results.
+- The output products were verified against expected binary multiplication results.
 - Correct multiplication results were observed in waveform outputs.
 
 
